@@ -1,0 +1,8 @@
+<!--pages/story/story.wxml-->
+<view  wx:for="{{list}}">
+<navigator url="/pages/details/details?id={{item._id}}">
+   <text class="left">{{item.title}}</text>
+   <text class="right" bindtap="del" data-index="{{index}}" data-id="{{item._id}}">删除</text>
+   </navigator>
+</view>
+<navigator url="/pages/add/add"><image src="../../image/add.png" mode="widthFix"></image></navigator>

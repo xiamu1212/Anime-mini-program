@@ -1,0 +1,23 @@
+/* pages/story/story.wxss */
+
+
+
+
+.left{
+    float: left;
+  }
+  .right{
+    float:right;
+    color: #c21903;
+  }
+  view{
+    padding: 20rpx;
+    top: 20rpx;
+    border-bottom: 1px dashed #c21903;
+  }
+  image{
+    position: fixed;
+    right: 20rpx;
+    bottom: 20rpx;
+    width: 100rpx;
+  }

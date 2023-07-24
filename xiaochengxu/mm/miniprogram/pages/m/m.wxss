@@ -1,0 +1,30 @@
+/* pages/m/m.wxss */
+/* pages/personal/personal.wxss */
+view{
+    margin: 20rpx;
+  }
+  .left{
+    float: left;
+    font-size: 14px;
+  }
+  .logo .left{
+    line-height: 100rpx;
+   
+  }
+  .logo .right{
+    width: 100rpx;
+    border-radius: 40rpx;
+  }
+  .right{
+    float: right;
+    width: 120rpx;
+    font-size: 14px;
+    color: #999;
+  }
+  .ni .right{
+    text-align: right;
+  }
+  button{
+    margin-top: 20px;
+    border-radius: 40rpx !important;
+  }

@@ -1,0 +1,38 @@
+/* pages/add/add.wxss */
+
+.a{
+  width: 100%;
+  height: 1500rpx;
+  background-color: #e9d7df;
+}
+
+
+form input{
+  width: 300rpx;
+  height: 100rpx;
+    border: 2px solid #0a0a0a;
+    margin: 20rpx;
+    background-color: rgb(231, 216, 216);
+    border-radius: 20rpx;
+    margin-left: auto;
+    margin-right:auto ;
+
+    }
+    form textarea{
+      border: 2px solid #13100f;
+      margin: 20rpx;
+      background-color: rgb(231, 216, 216);
+      border-radius: 20rpx;
+      margin-left: auto;
+      margin-right:auto ;
+      font-size: 40rpx;
+    }
+    image{
+      width: 100rpx;
+    }
+    button{
+      background: #c21903;
+      color: #fff;
+      background-color: rgb(14, 13, 13);
+      border-radius: 20px !important;
+    }

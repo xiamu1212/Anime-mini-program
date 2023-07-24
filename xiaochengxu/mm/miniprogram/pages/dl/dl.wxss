@@ -1,0 +1,105 @@
+/* pages/dl/dl.wxss */
+/* 头像 */
+.q{
+   width: 300rpx; 
+   animation: move 30s infinite linear;
+   border-radius: 50%;
+   margin-left: 230rpx;
+   margin-top: 60rpx;
+
+}
+/* 输入账号 */
+.tips{
+   color: red;
+   font-size: 20px;
+   margin-top: 60px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sr input{
+   width: 420rpx;
+   height: 20rpx;
+   margin: 3px;
+   /* background: #0f0f1e; */
+   background: #f5f5fa;
+   border-radius: 40rpx;
+   color:rgb(26, 23, 23);
+   padding: 4px;
+   
+   
+}
+ .sr view{
+   margin-top: 80rpx;
+   float: left;
+   margin-left: 170rpx;
+   /* background:linear-gradient(90deg,#5dcf0c 0,#2dbe8f 30%, #03b0ff); */
+   background:linear-gradient(90deg,#962e36 0,#53cea7 30%, #053146);
+   border-radius: 40rpx;
+} 
+/* 按钮 */
+button{
+   margin-top: 190px !important;
+   border-radius: 50px !important;
+   margin-left: 130px !important;
+}
+/* 跳转 */
+navigator{
+   color: rgb(204, 114, 114);
+   font-size: 16px;
+}
+.zx{
+   float: right;
+   margin-top: 10px;
+   margin-right:20rpx;
+}
+.zc{
+   float: right;
+   margin-top: 30rpx;
+   margin-right:40rpx;
+}
+/* 登录方式 */
+.a{
+   margin-left: 110px;
+   margin-top: 60rpx;
+   display:  block;
+}
+.df .a{
+   width: 100rpx; 
+   animation: move 30s infinite linear;
+   border-radius: 50%;
+   margin-left: 140rpx;
+   margin-top: 100rpx;
+   float: left;
+}
+.df .b{
+   width: 100rpx; 
+   animation: move 30s infinite linear;
+   border-radius: 50%;
+   margin-left: 100rpx;
+   margin-top: 100rpx;
+   float: left;
+}
+.df .c{
+   width: 100rpx; 
+   animation: move 30s infinite linear;
+   border-radius: 50%;
+   margin-left: 100rpx;
+   margin-top: 100rpx;
+   float: left;
+}
+
+  
+
+
+
+
+/* 固定定位 */
+    /* position: fixed;  */
+    /* 相对定位  */
+    /* display:  block;  */
+    /* 水平垂直居中 */
+   /* margin-left: auto;
+   margin-right:auto; */
+   /* 圆边 */
+   /* border-radius: 40px; */

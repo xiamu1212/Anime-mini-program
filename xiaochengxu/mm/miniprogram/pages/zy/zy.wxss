@@ -1,0 +1,206 @@
+/* 背景 */
+.bb{
+  background-color:#00BFFF;
+ 
+}
+/* 选项卡 */
+scroll-view{
+  white-space: nowrap;
+}
+scroll-view view{
+  display: inline-block;
+  padding: 10rpx 20rpx;
+  font-size: 16px;
+  position: relative;
+}
+.current{
+  color: orangered;
+  font-size: 22px;
+}
+.current text{
+  width: 10px;
+  height: 2px;
+  background: orangered;
+  position: absolute;
+  bottom: 0px;
+  left:50%;
+  margin-left: -5px;
+}
+/* 搜索 */
+.search{
+  /* background: #41ac52; */
+  padding: 20rpx;
+  /* 相对定位 */
+  position: relative;
+}
+.search input{
+background: rgb(226, 219, 219);
+width: 550rpx;
+/* 圆边 */
+border-radius:25rpx ;
+height: 60rpx;
+margin-left: 10rpx;
+}
+.search image{
+/* 固定定位 */
+position: absolute;
+width: 40rpx;
+top: 30rpx;
+left: 50rpx;
+}
+.search .xiao{
+  width: 60rpx;
+top: 20rpx;
+left: 630rpx;
+}
+/* 轮播图 */
+swiper image{
+  width: 710rpx;
+}
+swiper{
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+  height: 500rpx;
+}
+swiper .left{
+    float: left;
+    font-size: 12px;
+}
+swiper .right{
+    float: right;
+    font-size: 12px;
+}
+/* 回归 */
+.bbb{
+  /* 相对定位 */
+position: relative;
+background-color: #FFFFFF;
+top: -50rpx;
+height: 710rpx;
+width:753rpx;
+/* margin-left: 20rpx; */
+/* 圆边 */
+border-top-right-radius:40rpx ;
+border-top-left-radius:40rpx ;
+}
+.c{
+  /* 相对定位 */
+position: relative;
+ /* background-color: #5a5050; */
+ top: -10rpx;
+ height: 60rpx;
+ width:650rpx;
+top: 30rpx;
+margin-left: auto;
+margin-right:auto ;
+
+}
+.c text{
+  float: left;
+  margin-right: 40rpx;
+  margin-top: 10rpx;
+}
+.c image{
+  width: 60rpx;
+top: 20rpx;
+left: 630rpx;
+float: left;
+
+}
+
+
+/* <!-- 内容 --> */
+.cc{
+  height: 400rpx;
+width:690rpx;
+background-color: rgb(205, 205, 228);
+margin-left:30rpx;
+margin-right:30rpx;
+top: 750rpx;
+  /* 固定定位 */
+position: absolute;
+border-radius: 30rpx;
+}
+.movie>text{
+  margin: 20rpx 0rpx;
+  display: block;
+  color: #999;
+  margin-left: 20rpx;
+}
+.movie{
+  margin-left: 20rpx;
+}
+.movie scroll-view{
+  white-space: nowrap;
+}
+.movie view{
+  width: 180rpx;
+  display: inline-block;
+  margin-right: 10rpx;
+}
+.movie .top{
+  width: 180rpx;
+  border-radius: 20rpx;
+  /* height: 230rpx; */
+}
+.movie view text{
+  width: 200rpx;
+  text-align: center;
+  font-size: 26rpx;
+  display: block;
+  margin-top: 10rpx;
+  margin-left: -10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ccc{
+  height: 620rpx;
+width:690rpx;
+background-color: rgb(96, 96, 99);
+margin-left:30rpx;
+margin-right:30rpx;
+top: 1200rpx;
+  /* 固定定位 */
+position: absolute;
+border-radius: 30rpx;
+}
+
+/* fen */
+.mo {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+ }
+ .mo view  {
+  width: 300rpx;
+  float: left;
+}
+.mo view:nth-of-type(2n){
+   margin-left: 30rpx;
+}
+.mo image{
+   width: 300rpx;
+}
+.mo .title{
+   font-weight: bold;
+   margin-bottom: 20rpx;
+   display: block;
+   margin-top: 20rpx;
+}
+.mo .top{
+   font-size: 14px;
+   display: block;
+}
+.mo .des{
+   font-size: 18rpx;
+   display: block;
+   color: #999;
+   margin-top: 8rpx;
+   margin-bottom: 20rpx;
+}
+.mo>text{
+  margin: 20rpx 0rpx;
+  display: block;
+  color: #999;
+  margin-left: 20rpx;
+}

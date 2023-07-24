@@ -1,0 +1,104 @@
+{
+  "pages": [
+    "pages/m/m",
+    "pages/details/details",
+    "pages/z5/z5",
+    "pages/z4/z4",
+    
+    "pages/zy/zy",
+    "pages/dl/dl",
+   
+    
+    "pages/zc/zc",
+    
+    
+    "pages/add/add",
+    "pages/story/story",
+    "pages/z2/z2",
+    "pages/z3/z3",
+
+  
+    
+    
+
+  
+  
+    
+    
+    
+    
+    
+   
+   
+   
+  
+    
+   
+
+
+
+    
+    
+   
+
+
+
+   
+    "pages/index/index",
+    "pages/getOpenId/index",
+    "pages/getMiniProgramCode/index",
+    "pages/deployService/index",
+    "pages/createCollection/index",
+    "pages/uploadFile/index",
+    "pages/selectRecord/index",
+    "pages/updateRecord/index",
+    "pages/updateRecordResult/index",
+    "pages/updateRecordSuccess/index",
+    "pages/sumRecord/index",
+    "pages/sumRecordResult/index"
+  ],
+
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+   
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/zy/zy",
+      "text": "推荐", 
+      "iconPath": "/image/z1.jpg",
+      "selectedIconPath": "/image/s11.png"
+    },
+    {
+      "pagePath": "pages/z2/z2",
+      "text": "圈子", 
+      "iconPath": "/image/s2.png",
+      "selectedIconPath": "/image/s22.png"
+    },
+   
+    {
+      "pagePath": "pages/z4/z4",
+      "text": "书架", 
+      "iconPath": "/image/s4.png",
+      "selectedIconPath": "/image/s44.png"
+    },
+    {
+      "pagePath": "pages/z5/z5",
+      "text": "我的", 
+      "iconPath": "/image/s5.png",
+      "selectedIconPath": "/image/s55.png"
+    }
+  
+  
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

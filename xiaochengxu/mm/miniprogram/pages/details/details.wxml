@@ -1,0 +1,6 @@
+<!--pages/details/details.wxml-->
+<!--pages/details/details.wxml-->
+<text class="title">{{list.title}}</text>
+<text class="date">{{list.date}}</text>
+<text class="con">{{list.con}}</text>
+<image wx:for="{{list.urls}}" src="{{item}}" mode="widthFix"></image>

@@ -1,0 +1,10 @@
+<!--pages/add/add.wxml-->
+<view class="a">
+<form action="" bindsubmit="send">
+<input type="text" name="title"/>
+<textarea name="con" id="" cols="30" rows="10"></textarea>
+<image mode="widthFix" bindtap="upload" src="http://hbimg.b0.upaiyun.com/0066468f33010e88b8f29f8cc5c5661abf04bd9d1ea4-v2MEDk_fw658"></image>
+<image wx:for="{{list}}" src="{{item}}" mode="widthFix"></image>
+<button form-type="submit">上传</button>
+</form>
+</view>

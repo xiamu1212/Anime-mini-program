@@ -1,0 +1,32 @@
+<!--pages/dl/dl.wxml-->
+
+<!-- 头像 -->
+<view>
+<image mode="widthFix" class="q" src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg"></image>
+</view>
+<!-- 输入框 -->
+<view class="sr">
+<form action="" bindsubmit="login">
+<!-- <label for="user">用户名</label> -->
+ <view><input  type="text" id="user" name="user" placeholder-class="txt" placeholder="请输入用户名"/></view>
+<view><input  type="password" id="pass" name="pass" placeholder-class="txt" placeholder="请输入密码"/></view>
+
+<navigator class="zc" url="">忘记密码</navigator>
+<button  type="primary" form-type="submit" style="width: 35%;">登录</button>
+</form>
+<!-- navigator实现页面跳转，url放置跳转地址 -->
+<navigator class="zx" url="/pages/sing/sing">如果没有账号，请注册 ! ! ! !</navigator>
+</view>
+<text class="a">----- 其他登录方式 -----</text>
+<view class="df">
+    <navigator> <image mode="widthFix" class="a" src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/q15.jpg"></image></navigator>
+    <navigator><image mode="widthFix" class="b" src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/q2.jpg"></image></navigator>
+    <navigator> <image mode="widthFix" class="c" src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/q3.jpg"></image></navigator>
+</view>
+
+<text class="tips">{{user}}</text>
+
+
+<!-- style="width: 35%; 按钮宽度 -->
+
+<!-- 问题1.头像的js没用弄好 -->

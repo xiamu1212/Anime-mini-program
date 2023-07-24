@@ -1,0 +1,54 @@
+<!--pages/z2/z2.wxml-->
+<!-- 选项卡 -->
+
+<scroll-view scroll-x="true">
+<view wx:for="{{list}}" class="{{index==num?'current':''}}" bindtap="change" data-id="{{index}}">
+{{item}}
+<text></text>
+</view>
+<view class="a">
+   <navigator url="/pages/story/story?id={{index}}">
+<image src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/ss.png"  mode="widthFix"></image>
+</navigator>
+</view>
+
+</scroll-view>
+<!-- 轮播图 -->
+<swiper autoplay="true" circular="true">
+<swiper-item wx:for="{{banners}}">
+<image  src="{{item.src}}"  mode="widthFix"></image>
+</swiper-item>
+</swiper>
+<view class="n1"></view>
+<view class="v1">
+<text class="v2">热门圈子</text>
+<text class="v3">查看更多 ></text>
+</view>
+<view class="b1">
+<view class="b2">
+<image  src="https://tvax1.sinaimg.cn/crop.0.0.996.996.180/81c848f7ly8glmfptqa7dj20ro0rodgg.jpg?KID=imgbed,tva&Expires=1654776059&ssig=xQZUksyKvT" mode="widthFix"></image>
+<text class="b21">#打卡</text>
+<text class="b22">1.5万人参与</text>
+</view>
+<view class="b3">
+<image  src="https://tvax3.sinaimg.cn/crop.0.0.500.500.180/941ff757ly8h2u4s0ytr9j20dw0dwwex.jpg?KID=imgbed,tva&Expires=1654776059&ssig=nzdthlMf%2Br" mode="widthFix"></image>
+<text class="b31">#抽卡同好圈</text>
+<text class="b32">3221人参与</text>
+</view>
+</view>
+<!-- 过道 -->
+<view class="n2"></view>
+<!-- 评论 -->
+<view class="m"> 
+<text class="m1">宣传片</text>
+<!-- //wxml部分 -->
+<swiper indicator-dots="true" indicator-color="green" indicator-active-color="red"    vertical="true">
+  <swiper-item wx:for="{{lists}}">
+    <video src="{{item.src}}" mode="scaleToFill"></video>
+  </swiper-item>
+</swiper>
+
+</view>
+<!-- 过道 -->
+<view class="n3"></view>
+

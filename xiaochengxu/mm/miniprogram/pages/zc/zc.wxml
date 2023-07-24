@@ -1,0 +1,30 @@
+<!--pages/zc/zc.wxml-->
+<!-- 动态图 -->
+<view class="header">
+<image class="bg_ware" src="https://img-blog.csdnimg.cn/img_convert/7ccccd90fe17cb899c56fe00b2caefb0.gif#pic_center"></image>
+
+</view>
+<!-- 头像 -->
+<view class="aa">
+<image mode="widthFix" class="q" src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg"></image>
+</view>
+<form action="" bindsubmit="zc">
+ <view  style="text-align: center; vertical-align: middle;"><input type="text" id="user"  name="user" placeholder-class="txt" placeholder="请输入用户名"/>
+<text class="tips">{{user}}</text>
+<input type="password" id="pass" name="pass" placeholder-class="txt" placeholder="请输入密码"/>
+<text class="tips">{{pass}}</text>
+ 
+
+<button type="primary" form-type="submit">注册</button>
+</view>
+</form> 
+<!-- navigator实现页面跳转，url放置跳转地址 -->
+<navigator url="/pages/dl/dl">登录</navigator>
+
+
+<!-- 小图标 -->
+<view class="aaa" wx:for="{{li}}">
+    <view  wx:for="{{item.aaa}}" >
+        <image  src="{{item.src}}" mode="widthFix"></image> 
+    </view>
+</view>

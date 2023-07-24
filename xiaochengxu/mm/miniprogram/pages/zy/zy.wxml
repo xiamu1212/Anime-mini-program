@@ -1,0 +1,69 @@
+<view class="bb">
+<!-- 选项卡 -->
+<scroll-view scroll-x="true">
+<view wx:for="{{list}}" class="{{index==num?'current':''}}" bindtap="change" data-id="{{index}}">
+{{item}}
+<text></text>
+</view>
+</scroll-view>
+<!-- 搜索 -->
+<view>
+<view class="search">
+     <input type="text"/> 
+     <image src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/ss.png" mode="widthFix"></image>    
+     <view class="xiaoo"><image class="xiao" src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/se.png"  mode="widthFix"></image></view>
+</view>
+</view>
+<!-- 轮播图 -->
+     <swiper autoplay="true" circular="true">
+<swiper-item wx:for="{{banners}}">
+<image  src="{{item.src}}" mode="widthFix"></image>
+<text class="left">{{item.title}}</text>
+<text class="right">{{index+1}}/{{banners.length}}</text>
+</swiper-item>
+</swiper>
+</view>
+<!-- 回归 -->
+<view class="bbb">
+
+
+<view class="c">
+<image src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/se.png" mode="widthFix"></image>
+<text>排行</text>
+<image src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/se.png" mode="widthFix"></image>
+<text>分类</text>
+<image src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/se.png" mode="widthFix"></image>
+<text>卡牌</text>
+<image src="cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/se.png" mode="widthFix"></image>
+<text>福利</text>
+</view>
+</view>
+<!-- 内容 -->
+<view class="cc">
+<view class="movie" >
+   <text>回归限时福利</text>
+   <!--scroll-x="true" 能在一个边框平行滑动  -->
+  <scroll-view scroll-x="true">
+    <view wx:for="{{bon}}">
+      <image src="{{item.src}}" mode="widthFix" class="top"></image>
+      <text>{{item.title}}</text>
+    </view>
+    </scroll-view>
+</view>
+</view>
+
+<view class="ccc">
+     
+<view class="mo" >
+     <text>精品·企鹅娘打滚推荐</text>
+   <!--scroll-x="true" 能在一个边框平行滑动  -->
+   <view wx:for="{{hots}}">
+<image   src="{{item.src}}" mode="widthFix"></image>
+<text class="top">{{item.top}}</text>
+<text class="des">{{item.des}}</text>
+</view>
+</view>
+</view>
+
+
+

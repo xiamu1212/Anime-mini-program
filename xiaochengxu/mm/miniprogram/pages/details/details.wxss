@@ -1,0 +1,21 @@
+/* pages/details/details.wxss */
+/* pages/details/details.wxss */
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.con{
+    font-size: 20px;
+    text-indent: 24px;
+}
+image{
+    width: 600rpx;
+    margin-left:75rpx;
+}
+.date{
+    font-size: 18px;
+    color: rgb(155, 148, 148);
+    margin-left: auto;
+    margin-right: auto;
+}

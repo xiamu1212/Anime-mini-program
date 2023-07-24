@@ -1,0 +1,72 @@
+/* pages/z4/z4.wxss */
+/* 选项卡 */
+scroll-view{
+    white-space: nowrap;
+  }
+  scroll-view view{
+    display: inline-block;
+    padding: 10rpx 20rpx;
+    font-size: 16px;
+    position: relative;
+  }
+  .current{
+    color: rgb(32, 29, 28);
+    font-size: 22px;
+  }
+  .current text{
+    width: 10px;
+    height: 2px;
+    /* background: orangered; */
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    margin-left: -5px;
+  }
+  .qq{
+      width: 125rpx;
+      height: 40rpx;
+      background-color: rgb(216, 208, 223);
+      /* 把背景颜色变透明 */
+      /* background: rgba(0,0,0,0); */
+      border-radius: 30rpx;
+  }
+  .ee{
+      margin-left: 30px;
+      font-weight: bold;
+  }
+  /* 热播 */
+  .hot {
+      margin-top: 20rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+   }
+   .hot view view {
+    width: 230rpx;
+    float: left;
+ }
+ .hot view :nth-of-type(2n){
+     margin-left: 15rpx;
+     margin-right: 15rpx;
+ }
+ .hot image{
+     width: 230rpx;
+ }
+ /* .hot .title{
+     font-weight: bold;
+     margin-bottom: 20rpx;
+     display: block;
+     margin-top: 20rpx;
+ } */
+ .hot .top{
+     font-size: 14px;
+     display: block;
+ }
+ .hot .des{
+     font-size: 12px;
+     display: block;
+     color: #999;
+     margin-top: 8rpx;
+     margin-bottom: 30rpx;
+ }
+ 
+ 

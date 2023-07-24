@@ -1,0 +1,29 @@
+<!--pages/z4/z4.wxml-->
+<!-- 选项卡 -->
+<scroll-view scroll-x="true">
+<view wx:for="{{list}}" class="{{index==num?'current':''}}" bindtap="change" data-id="{{index}}">
+{{item}}
+<text></text>
+</view>
+</scroll-view>
+<!-- 选项卡2 -->
+<scroll-view scroll-x="true">
+<view wx:for="{{list1}}" class="{{index==num?'current':''}}" bindtap="change" data-id="{{index}}">
+<view class="qq" >
+{{item}}
+</view>
+<text></text>
+</view>
+<text class="ee">筛选</text>
+</scroll-view>
+<!-- 热播 -->
+<view class="hot {{index==2||index==3?'down':''}} " wx:for="{{lists}}" >
+<!-- <text class="title">{{item.title}}</text> -->
+<view>
+ <view wx:for="{{item.hots}}">
+<image   src="{{item.src}}" mode="widthFix"></image>
+<text class="top">{{item.top}}</text>
+<text class="des">{{item.des}}</text>
+ </view>
+</view>
+</view>

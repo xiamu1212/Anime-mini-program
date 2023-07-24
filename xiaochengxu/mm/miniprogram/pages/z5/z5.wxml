@@ -1,0 +1,113 @@
+<!--pages/z5/z5.wxml-->
+<view class="a">
+   
+  <!-- 头部 -->
+  <!-- 背景图片 -->
+  <view class="head-bg" >
+
+      <!-- 1 -->
+ <view class="container">
+  <navigator class="gg" url="/pages/m/m?id={{index}}">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg'  mode="widthFix"></image>
+</navigator>
+  <view class='content'>
+    夏沐
+  </view>
+</view>
+<!-- 2 -->
+<view class="con1">
+ <view class="gg1">
+   <image src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202002%2F11%2F20200211233823_bligy.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657299145&t=2ed8a8b7e44684a248e2abb88c678ca0'  mode="widthFix"></image>
+</view> 
+  <view >
+    <text class="o1">0</text>
+    <text class="o11">点券</text>
+  </view>
+  <view >
+    <text class="o2">20</text>
+    <text class="o22">阅点</text>
+  </view>
+  <view >
+    <text class="o3">200</text>
+    <text class="o33">阅读券</text>
+  </view>
+</view>
+<!-- 3 -->
+<view class="con3">
+  <scroll-view  class="scroll-1" scroll-x="true">
+ <view wx:for="{{bon}}">
+  <image src="{{item.src}}"  class="y" mode="widthFix"></image>
+  <text class="ee">{{item.title}}</text>
+  <text class="eer">{{item.tit}}</text>
+</view>
+</scroll-view>
+  <view class='con4'>
+    观看记录
+  </view>
+</view>
+
+<!-- 4 -->
+<view class="con5">
+ <view class="gg3">
+  <image src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic_source%2F43%2F48%2F99%2F434899221b48689aa1827a852871cc3e.jpeg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657299145&t=61b182c2ed64ec53b5abd49282f79d08'  mode="widthFix"></image>
+</view>
+  <view class='con6'>
+    我的设置
+  </view>
+
+  <view class="gg4">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/0.052585399249891474.png'  mode="widthFix"></image>
+</view>
+  <view class='con7'>
+    离线下载
+  </view>
+
+  <view class="gg5">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/tx/tx_tox/20.jpg'  mode="widthFix"></image>
+</view>
+  <view class='con8'>
+    兑换中心
+  </view>
+
+  <view class="gg6">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/tx/tx_tox/aa.jpg'  mode="widthFix"></image>
+</view>
+  <view class='con9'>
+    隐私设置
+  </view>
+
+</view>
+<!-- 4 -->
+<!-- <view class="con15">
+ <view class="gg3">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg'  mode="widthFix"></image>
+</view>
+  <view class='con6'>
+    我的设置
+  </view>
+
+  <view class="gg4">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg'  mode="widthFix"></image>
+</view>
+  <view class='con7'>
+    离线下载
+  </view>
+
+  <view class="gg5">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg'  mode="widthFix"></image>
+</view>
+  <view class='con8'>
+    兑换中心
+  </view>
+
+  <view class="gg6">
+  <image src='cloud://cloud1-1gxqkutx5934db79.636c-cloud1-1gxqkutx5934db79-1309747512/zy/zz.jpg'  mode="widthFix"></image>
+</view>
+  <view class='con9'>
+    隐私设置
+  </view>
+
+</view> -->
+</view>
+</view>
+

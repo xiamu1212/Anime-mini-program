@@ -1,0 +1,29 @@
+<!--pages/m/m.wxml-->
+<view></view>
+<view class="logo">
+<text class="left">头像</text>
+<image src="{{src}}" mode="widthFix" class="right" bindtap="chooseImg"></image>
+</view>
+<view class="ni">
+<text class="left">昵称</text>
+<text bindtap="update" >{{msg}}</text>
+<input type="text" disabled="{{1==t}}" class="right"  value="{{val}}" bindinput="getval"/>  
+</view>
+<view class="number">
+<text class="left">手机号</text>
+<text class="right">555555</text>
+</view>
+<view class="pro">
+<text class="left">兴趣</text>
+<text class="right">动漫</text>
+</view>
+<view class="prol">
+<text class="left">职业</text>
+<text class="right">微信开发</text>
+</view>
+<view class="prol">
+<text class="left">所在单位</text>
+<text class="right">广州城建职业学院</text>
+</view>
+
+<button bindtap="quit" type="primary">退出登录</button>

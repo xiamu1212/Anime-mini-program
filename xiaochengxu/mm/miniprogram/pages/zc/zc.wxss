@@ -1,0 +1,88 @@
+/* pages/zc/zc.wxss */
+/* 头像 */
+.q{
+    width: 300rpx; 
+    animation: move 30s infinite linear;
+    border-radius: 50%;
+    margin-left: 230rpx;
+    margin-top: 60rpx;
+ 
+ }
+
+ page{
+     background-color: #fff;
+ }
+ .header{
+     position: relative;
+     height: 1100rpx;
+     background: linear-gradient(to bottom,#e9d7df,#eea6b7);
+ }
+ .bg_ware{
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     mix-blend-mode: screen;
+     height: 120rpx;
+ }
+ /* 头像 */
+ .aa{
+     position: relative;
+     margin-top: -570px;
+ }
+
+/* 输入框 */
+navigator{
+    color: rgb(116, 31, 31);
+    font-size: 24px;
+    text-align: right;
+    position: relative;
+    margin-right: 30rpx;
+    font-family: "楷体";
+    font-weight: bold;
+}
+
+input{
+    /* border: 3px solid rgb(15, 14, 14); */
+     /* 去除未选中状态边框 */
+    /* border: 0; */
+    /* 去除选中状态边框 */
+    /* outline: none; */
+    /* 透明背景 */
+     /* background-color: rgba(0,0, 0, 0); */
+   position: relative; 
+    /*去除边框  上 右 下  左 */
+   border-style:none none solid none;
+  margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 30px;
+   width: 500rpx;
+}
+.txt{
+    color:rgb(165, 80, 80);
+    font-size: 18px;
+}
+button{
+    margin-top: 60px;
+    display: block
+    
+}
+.tips{
+    color: red;
+    font-size: 18px;
+}
+/* 小图标 */
+.aaa image{
+  position: relative;
+ width: 50px;
+ margin-left: 80rpx;
+ float: left;
+ margin-top: 150px;
+ 
+}
+
+.aaa view:nth-of-type(2n+2) image{
+    margin-top: 100px;
+    margin-left: 40px;
+}

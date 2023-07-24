@@ -1,0 +1,248 @@
+/* pages/z5/z5.wxss */
+/* 背景图片 */
+.head-bg{
+    width: 750rpx;
+    height: 1450rpx;
+    /* background-image: url('https://636c-cloud1-1gxqkutx5934db79-1309747512.tcb.qcloud.la/zy/v1.jpg?sign=7e1e5e91e0a77764d9617a2125c12868&t=1654440963'); */
+    background-color:#e9d7df;
+    background-size: 100% 100%;
+  }
+  .container{
+    width: 100%;
+    height: 400rpx;
+    margin: 0;
+    padding: 0;
+    top: 10px;
+    position: relative;
+    /* background-color: cadetblue; */
+    border-radius: 30rpx;
+  }
+ .gg image{
+    position: relative;
+    width: 150rpx;
+    height: 150rpx;
+    top: 10rpx;
+    /* left: -10rpx; */
+    border-radius: 70%;
+    
+  }
+  .content{
+    margin-top: 110px;
+    position: absolute;
+    z-index: 1;
+
+  }
+/* 1 */
+
+  .con1{
+    width: 730rpx;
+    height: 150rpx;
+    margin: 0;
+    padding: 0;
+    top: -40px;
+    left: 5px;
+    position: relative;
+    background-color: rgb(247, 251, 252);
+    border-radius: 40rpx;
+  }
+  .o1{
+    position: absolute; 
+    top:30rpx; 
+     left: 50px;
+  }
+  .o11{
+    position: absolute; 
+    top:80rpx;
+     left: 40px;
+  }
+  .o2{
+    position: absolute; 
+    top:30rpx; 
+     left: 135px;
+  }
+  .o22{
+    position: absolute; 
+    top:80rpx;
+     left: 130px;
+  }
+  .o3{
+    position: absolute; 
+    top:30rpx; 
+     left: 220px;
+  }
+  .o33{
+    position: absolute; 
+    top:80rpx;
+     
+     left: 210px;
+  }
+
+  .gg1 image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 20rpx;
+    border-radius: 10px;
+    left: 300px;
+  }
+
+/* 2 */
+/* 观看记录 */
+.con3{
+  width: 730rpx;
+  height: 500rpx;
+  margin: 0;
+  padding: 0;
+  top: -30px;
+  left: 5px;
+  position: relative;
+  background-color: rgb(247, 251, 252);
+  border-radius: 40rpx;
+}
+
+.con3 scroll-view{
+  white-space: nowrap;
+}
+
+.scroll-1{
+  width: 730rpx;
+    height: 500rpx;
+    
+}
+.scroll-1 view{
+  margin-top: 70px;
+  margin-left: 10px;
+  width: 200rpx;
+    height: 400rpx;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    
+}
+.scroll-1 .y{
+  width: 200rpx;
+    height: 400rpx;
+    margin-left: 10px;
+    
+}
+.con3 view .ee{
+  width: 200rpx;
+  text-align: center;
+  font-size: 26rpx;
+  display: block;
+  margin-top: 10rpx;
+  margin-left: -10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.con3 view .eer{
+  width: 200rpx;
+  text-align: center;
+  font-size: 23rpx;
+  display: block;
+  margin-top: 10rpx;
+  margin-left: -10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color:blueviolet;
+}
+.con4{
+  position: absolute; 
+  top:40rpx;
+   z-index: 1;
+   left: 40rpx;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+
+
+
+
+  /* 3 */
+  .con5{
+    width: 730rpx;
+    height: 230rpx;
+    margin: 0;
+    padding: 0;
+    top: -20px;
+    left: 5px;
+    position: relative;
+    background-color: rgb(247, 251, 252);
+    border-radius: 40rpx;
+  }
+  /* 最后 */
+  .con6{
+    position: absolute; 
+    top:90px;
+     /* z-index: 1; */
+     left: 40rpx;
+     font-size: 12px;
+  }
+  .gg3 image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 50rpx;
+    border-radius: 70%;
+    left: 20px;
+     
+  }
+  .con7{
+    position: absolute; 
+    top:90px;
+     /* z-index: 1; */
+     left: 120px;
+     font-size: 12px;
+  }
+  .gg4 image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -55rpx;
+    border-radius: 70%;
+    left: 120px;
+     
+  }
+  .con8{
+    position: absolute; 
+    top:90px;
+     /* z-index: 1; */
+     left: 220px;
+     font-size: 12px;
+  }
+  .gg5 image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -80px;
+    border-radius: 70%;
+    left: 220px;
+  }
+  .con9{
+    position: absolute; 
+    top:90px;
+     /* z-index: 1; */
+     left: 310px;
+     font-size: 12px;
+  }
+  .gg6 image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -133px;
+    border-radius: 70%;
+    left: 310px;
+  }
+  /* .con15{
+    width: 730rpx;
+    height: 200rpx;
+    margin: 0;
+    padding: 0;
+    top: -10px;
+    left: 5px;
+    position: relative;
+    background-color: rgb(247, 251, 252);
+    border-radius: 40rpx;
+  } */
